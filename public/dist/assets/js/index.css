@@ -1,0 +1,231 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar-orange{
+    background-color: #dd894c;
+}
+.navbar-purple{
+    background-color: #865c9c;
+}
+.bg-orange{
+    background-color: #dd894c;
+}
+.bg-purple{
+    background-color: #865c9c;
+}
+.bg-orange-dark{
+    background-color: #a85a23;
+}
+.bg-purple-dark{
+    background-color: #3C1452;
+}
+
+.btn-orange{
+    color: white;
+    background-color: #dd894c;
+}
+.btn-orange:hover{
+    color: #fff;
+    background-color: #c56a28;
+}
+.btn-orange:focus{
+    box-shadow: 0 0 0 0.25rem #dd894c25!important;
+}
+.btn-outline-orange{
+    color: #dd894c;
+    border-color: #dd894c;
+    background-color: #fff;
+}
+.btn-outline-orange:hover{
+    color: white;
+    background-color: #dd894c;
+}
+.btn-outline-orange:focus{
+    box-shadow: 0 0 0 0.25rem #dd894c25!important;
+}
+.btn-purple{
+    color: #fff;
+    background-color: #865c9c;
+}
+.btn-purple:hover{
+    color: #fff;
+    background-color: #5b2d74;
+}
+.btn-purple:focus{
+    box-shadow: 0 0 0 0.25rem #865c9c25;
+}
+.btn-outline-purple{
+    color: #865c9c;
+    border-color: #865c9c;
+    background-color: #fff;
+}
+.btn-outline-purple:hover{
+    color: #fff;
+    background-color: #865c9c;
+}
+.text-purple{
+    color: #865c9c;
+}
+.text-orange{
+    color: #dd894c;
+}
+.link-orange-dark{
+    color: #000;
+    text-decoration: none;
+}
+.link-orange-dark:hover{
+    color: #dd894c;
+}
+.link-purple-dark{
+    color: #000;
+    text-decoration: none;
+}
+.link-purple-dark:hover{
+    color: #865c9c;
+}
+
+.btn-not-abf:after,
+.btn-not-abf:before,
+.btn-not-abf:focus{
+    box-shadow: none!important;
+}
+
+.ctg-menus {
+    cursor: pointer;
+}
+
+.ctg-menus:hover+.d-menu {
+    display: block !important;
+}
+
+.d-menu {
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.d-menu:hover,
+.d-menu:focus,
+.d-menu:active {
+    display: block;
+}
+
+.d-menu .m-navs .nav-link:hover {
+    transition: linear all 0.2s;
+    padding-left: 1.5rem !important;
+}
+
+.d-menu .m-navs .nav-link.active {
+    color: blue !important;
+    background-color: white;
+    padding-left: 1.5rem !important;
+}
+
+
+.acr-btn {
+    color: #000;
+    text-decoration: none;
+    padding: .5rem 1rem;
+}
+
+.acr-btn:active,
+.acr-btn:focus,
+.acr-btn .collapsed {
+    z-index: 3;
+    border: 0px;
+    outline: 0;
+    box-shadow: unset;
+    background-color: white;
+}
+
+
+
+
+
+/* punya user */
+.img-users {
+    width: 64px;
+    height: 64px;
+}
+
+.pils-navs.active {
+    color: #0d6efd !important;
+    border-radius: 0px !important;
+    background-color: white !important;
+    border-bottom: 3px solid #0d6efd !important;
+}
+
+.t-bio {
+    width: 120px;
+}
+
+@media(max-width: 768px) {
+    .img-users {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/* for product */
+.text-ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.shadow-box {
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    font-size: 20;
+    color: #fff!important;
+    background-color: #dd894c;
+}
+
+.footer-link {
+    color: rgb(255, 255, 255);
+    padding: .5rem 0px;
+}
+
+.footer-link:hover {
+    transition: all .2s;
+    color: #865c9c;
+}
+
+
+.menu-balloon {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1.5rem 1rem;
+}
+
+.btn-menu-fixed {
+    width: 54px;
+    height: 54px;
+    padding: 0;
+    border: 2px solid #dd894c;
+    color: #dd894c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.btn-menu-fixed:focus {
+    transition: linear all 0.3s;
+    transform: rotate(360deg);
+}
+.contact-menu{
+    width: 250px;
+    border: 0px;
+    margin-bottom: 3.5rem!important;
+    box-shadow: 0px 0px 12px #0002;
+}

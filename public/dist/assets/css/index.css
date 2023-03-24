@@ -1,0 +1,461 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar-orange {
+    background-color: #ee9005;
+}
+
+.navbar-purple {
+    background-color: #865c9c;
+}
+
+.bg-orange {
+    background-color: #ee9005;
+}
+
+.bg-purple {
+    background-color: #865c9c;
+}
+
+.bg-orange-secondary {
+    background-color: #f1ac7a;
+}
+
+.bg-purple-secondary {
+    background-color: #b781d4;
+}
+
+.bg-orange-dark {
+    background-color: #a85a23;
+}
+
+.bg-purple-dark {
+    background-color: #3C1452;
+}
+
+.bg-orange-gradient {
+    background: #FFB75E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ED8F03, #FFB75E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bg-purple-gradient {
+    background: #6a3093;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #a044ff, #6a3093);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #a044ff, #6a3093);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.btn-orange {
+    color: white;
+    background-color: #ee9005;
+}
+
+.btn-orange:hover {
+    color: #fff;
+    background-color: #c56a28;
+}
+
+.btn-orange:focus {
+    box-shadow: 0 0 0 0.25rem #ee900525 !important;
+}
+
+.btn-outline-orange {
+    color: #ee9005;
+    border-color: #ee9005;
+    background-color: transparent;
+}
+
+.btn-outline-orange:hover {
+    color: white;
+    background-color: #ee9005;
+}
+
+.btn-outline-orange:focus {
+    box-shadow: 0 0 0 0.25rem #ee900525 !important;
+}
+
+.btn-purple {
+    color: #fff;
+    background-color: #865c9c;
+}
+
+.btn-purple:hover {
+    color: #fff;
+    background-color: #5b2d74;
+}
+
+.btn-purple:focus {
+    box-shadow: 0 0 0 0.25rem #865c9c25;
+}
+
+.btn-outline-purple {
+    color: #865c9c;
+    border-color: #865c9c;
+    background-color: transparent;
+}
+
+.btn-outline-purple:hover {
+    color: #fff;
+    background-color: #865c9c;
+}
+
+.text-purple {
+    color: #865c9c;
+}
+
+.text-orange {
+    color: #ee9005;
+}
+
+.link-orange {
+    color: #ee9005;
+    text-decoration: none;
+}
+
+.link-orange:hover {
+    color: #a85a23;
+}
+
+.link-orange-dark {
+    color: #000;
+    text-decoration: none;
+}
+
+.link-orange-dark:hover {
+    color: #ee9005;
+}
+
+.link-purple-dark {
+    color: #000;
+    text-decoration: none;
+}
+
+.link-purple-dark:hover {
+    color: #865c9c;
+}
+
+.btn-not-abf:after,
+.btn-not-abf:before,
+.btn-not-abf:focus {
+    box-shadow: none !important;
+}
+
+
+/* for categories */
+.categories-menu {
+    height: 400px;
+    position: absolute;
+    z-index: 999;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    box-shadow: 0px 0px 12px #0002;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.categories-menu .categories-main {
+    width: 400px;
+    height: 100%;
+    overflow-y: auto;
+    border-right: 1px solid #0002;
+}
+
+.categories-menu .categories-main::-webkit-scrollbar {
+    width: 12px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.categories-menu .categories-main::-webkit-scrollbar-track {
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 6px #ee900530;
+}
+
+.categories-menu .categories-main::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 6px #da864a50;
+}
+
+.categories-menu .categories-main .nav .nav-link.active {
+    color: #ee9005;
+    background-color: #ee900525;
+}
+
+.categories-menu .categories-sub {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-y: auto;
+}
+.categories-menu .categories-sub::-webkit-scrollbar {
+    width: 12px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.categories-menu .categories-sub::-webkit-scrollbar-track {
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 6px #ee900530;
+}
+
+.categories-menu .categories-sub::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 0 6px #da864a50;
+}
+
+.ctg-link-child {
+    color: #000;
+}
+
+.ctg-link-child:hover {
+    transition: all 0.3s;
+    padding-left: 1.5rem !important;
+    color: #ee9005;
+}
+
+#btnCategories:hover + .categories-menu{
+    display: block;
+}
+.categories-menu:hover{
+    display: block;
+}
+
+
+
+
+.ctg-menus {
+    cursor: pointer;
+}
+
+.ctg-menus:hover+.d-menu {
+    display: block !important;
+}
+
+.d-menu {
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+.d-menu:hover,
+.d-menu:focus,
+.d-menu:active {
+    display: block;
+}
+
+.d-menu .m-navs .nav-link:hover {
+    transition: linear all 0.2s;
+    padding-left: 1.5rem !important;
+}
+
+.d-menu .m-navs .nav-link.active {
+    color: blue !important;
+    background-color: white;
+    padding-left: 1.5rem !important;
+}
+
+
+.acr-btn {
+    color: #000;
+    text-decoration: none;
+    padding: .5rem 1rem;
+}
+
+.acr-btn:active,
+.acr-btn:focus,
+.acr-btn .collapsed {
+    z-index: 3;
+    border: 0px;
+    outline: 0;
+    box-shadow: unset;
+    background-color: white;
+}
+
+.link-category {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+
+/* punya user */
+.img-users {
+    width: 64px;
+    height: 64px;
+}
+
+.pils-navs.active {
+    color: #0d6efd !important;
+    border-radius: 0px !important;
+    background-color: white !important;
+    border-bottom: 3px solid #0d6efd !important;
+}
+
+.t-bio {
+    width: 120px;
+}
+
+@media(max-width: 768px) {
+    .img-users {
+        width: 32px;
+        height: 32px;
+    }
+
+    .link-category {
+        padding-left: 1.5rem !important;
+        padding-right: 0rem;
+    }
+}
+
+/* for product */
+.text-ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #000;
+    text-transform: capitalize;
+}
+.text-ellipsis-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #000;
+    text-transform: capitalize;
+}
+.text-ellipsis-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.shadow-box {
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    font-size: 20;
+    color: #fff !important;
+    background-color: #ee9005;
+}
+
+.footer-link {
+    color: rgb(255, 255, 255);
+    padding: .5rem 0px;
+}
+
+.footer-link:hover {
+    transition: all .2s;
+    color: #865c9c;
+}
+
+
+.menu-balloon {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1.5rem 1rem;
+}
+
+.btn-menu-fixed {
+    width: 54px;
+    height: 54px;
+    padding: 0;
+    border: 2px solid #ee9005;
+    color: #ee9005;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.btn-menu-fixed:focus {
+    transition: linear all 0.3s;
+    transform: rotate(360deg);
+}
+
+.contact-menu {
+    width: 250px;
+    border: 0px;
+    margin-bottom: 3.5rem !important;
+    box-shadow: 0px 0px 12px #0002;
+}
+
+
+/* this for menu category */
+.categories .dropdown-menu {
+    top: 0;
+    margin-left: -300px;
+}
+
+.categories .dropdown-menu .dropdown-item {
+    display: block;
+    width: 320px;
+    top: 0;
+    left: 0;
+}
+
+.categories .dropdown-menu .dropdown-item:hover {
+    transition: all 0.3s;
+    padding-left: 2rem;
+    background-color: #ee900525;
+    color: #ee9005;
+}
+
+.secondary-menu {
+    display: none;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    left: 100%;
+    margin-top: -2.5rem;
+    width: 300px;
+    box-shadow: 0px 0px 12px #0002;
+    overflow: hidden;
+}
+
+.categories .dropdown-menu .dropdown-item:hover+.secondary-menu {
+    transition: all 0.2s;
+    display: block;
+}
+
+
+.secondary-menu:hover {
+    display: block;
+}
+.dropdown-sub{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 300px;
+    height: 400px;
+    display: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px #0002;
+}
+.dropdown-links:hover + .dropdown-sub,
+.dropdown-links:focus + .dropdown-sub{
+    display: block!important;
+}
+.dropdown-submenu .dropdown-sub:hover{
+    display: block;
+}

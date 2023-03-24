@@ -1,0 +1,61 @@
+.ck-editor__editable {
+    min-height: 200px;
+    box-shadow: unset!important;
+    border-radius: 0px 0px 4px 4px!important;
+}
+
+.bg-success-secondary {
+    background-color: #ddefe4;
+}
+
+.image-fields{
+    width: 100%;
+    border-radius: 4px;
+}
+.btn-image-fields{
+    position: absolute;
+    margin-top: 2px;
+    margin-left: -38px;
+    color: #dc3545!important;
+}
+
+
+.form-upload{
+    display: block;
+    width: 50%;
+    height: auto;
+    padding: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+}
+.form-upload img{
+    height: 100%;
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .form-upload{
+        width: 100%;
+    }
+}
+
+.btn-remove-images{
+    color: #dc3545!important;
+}
+.btn-remove-images:hover{
+    color: #000000!important;
+}
+
+
+.box-images{
+    display: flex;
+    border: 4px dashed #000;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+    cursor: pointer;
+}

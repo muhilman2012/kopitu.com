@@ -1,0 +1,114 @@
+/* produk css clases */
+.card-items {
+    width: 14rem;
+}
+
+.text-ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.text-ellipsis-4{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.this-carousel-one {
+    background: url('/images/banner/banner-carousel-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.this-carousel-two {
+    background: url('/images/banner/banner-carousel-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.this-carousel-three {
+    background: url('/images/banner/banner-carousel-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.color-style {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(178, 178, 178, 1) 100%);
+}
+
+.fa-icons {
+    width: 64px;
+}
+
+.opacity-0 {
+    opacity: 0!important;
+}
+
+.carousel-item.active .c-title {
+    animation: fadeInDown;
+    animation-duration: 2s;
+    opacity: 1!important;
+}
+
+.carousel-item.active .c-content {
+    animation: fadeInDown;
+    animation-duration: 2s;
+    opacity: 1!important;
+}
+
+.carousel-item.active .c-btn {
+    animation: fadeInDown;
+    animation-duration: 2s;
+    opacity: 1!important;
+}
+
+.banner-carousel-best {
+    background: url('/images/banner/drinks-tea.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+@media(max-width: 768px) {
+    .card-items {
+        width: 200px;
+    }
+}
+
+@media(max-width: 992px) {
+    .banner-carousel-best {
+        background: url('/images/banner/drinks-best.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 4px;
+    }
+}
+
+.btn-owl{
+    opacity: 0;
+    transition: all 0.3s;
+}
+.owl-carousel:hover > .btn-owl{
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+.btn-esystem.active{
+    border:2px solid #dd894c!important;
+}

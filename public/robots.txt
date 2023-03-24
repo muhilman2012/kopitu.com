@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /admin
+Disallow: /admin/login
+Disallow: /admin/register
+User-agent: Bingbot
+Disallow: /
+User-agent: Mediapartners-Google
+Allow: /
+User-agent: Adsbot-Google
+Allow: /
+User-agent: Googlebot-Mobile
+Allow: /
+Sitemap: https://kopitu.com/sitemap.xml
